@@ -1,0 +1,10 @@
+groq
+pydantic
+streamlit
+python-dotenv
+fastapi 
+uvicorn 
+httpx
+python-multipart
+streamlit-audiorecorder
+streamlit
