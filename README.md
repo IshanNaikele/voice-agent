@@ -4,16 +4,6 @@ A voice-powered AI agent that transcribes audio, classifies user intent, and exe
 
 ---
 
-## 📺 Demo & Article
-
-| Resource | Link |
-|---|---|
-| 🎬 Video Demo | [YouTube (Unlisted)](https://youtube.com/your-link-here) |
-| 📝 Technical Article | [Dev.to / Medium / Substack](https://your-article-link-here) |
-| 💻 GitHub Repo | [github.com/your-username/voice-agent](https://github.com/your-username/voice-agent) |
-
----
-
 ## 🏗️ Architecture
 
 ```
@@ -60,7 +50,7 @@ Audio File / Mic Recording
 | Speech-to-Text | `whisper-large-v3` | Groq API | See hardware note below |
 | Intent Classification | `llama-3.1-8b-instant` | Groq API | Fast, low-latency JSON routing |
 | Code Generation | `llama-3.1-8b-instant` | Groq API | Sufficient for code tasks |
-| Summarization | `llama3-70b-8192` | Groq API | Higher quality for text summarization |
+| Summarization | `llama-3.1-8b-instant` | Groq API | Higher quality for text summarization |
 
 ### ⚠️ Hardware Workaround Note
 
